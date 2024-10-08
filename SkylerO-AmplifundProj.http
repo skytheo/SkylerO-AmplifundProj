@@ -1,6 +1,6 @@
 @SkylerO_AmplifundProj_HostAddress = http://localhost:5259
 
-GET {{SkylerO_AmplifundProj_HostAddress}}/weatherforecast/
+GET {{SkylerO_AmplifundProj_HostAddress}}/Book/
 Accept: application/json
 
 ###
