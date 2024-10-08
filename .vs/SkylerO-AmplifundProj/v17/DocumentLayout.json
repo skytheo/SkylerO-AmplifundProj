@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\skyler\\source\\repos\\SkylerO-AmplifundProj\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{43026881-5121-4A9C-9BE8-1401CBEFFE9D}|SkylerO-AmplifundProj.csproj|c:\\users\\skyler\\source\\repos\\skylero-amplifundproj\\unittests\\bookcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43026881-5121-4A9C-9BE8-1401CBEFFE9D}|SkylerO-AmplifundProj.csproj|solutionrelative:unittests\\bookcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43026881-5121-4A9C-9BE8-1401CBEFFE9D}|SkylerO-AmplifundProj.csproj|c:\\users\\skyler\\source\\repos\\skylero-amplifundproj\\models\\bookcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43026881-5121-4A9C-9BE8-1401CBEFFE9D}|SkylerO-AmplifundProj.csproj|solutionrelative:models\\bookcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43026881-5121-4A9C-9BE8-1401CBEFFE9D}|SkylerO-AmplifundProj.csproj|c:\\users\\skyler\\source\\repos\\skylero-amplifundproj\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{43026881-5121-4A9C-9BE8-1401CBEFFE9D}|SkylerO-AmplifundProj.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{43026881-5121-4A9C-9BE8-1401CBEFFE9D}|SkylerO-AmplifundProj.csproj|c:\\users\\skyler\\source\\repos\\skylero-amplifundproj\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{43026881-5121-4A9C-9BE8-1401CBEFFE9D}|SkylerO-AmplifundProj.csproj|solutionrelative:controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,20 +27,12 @@
       "RelativeMoniker": "D:0:0:{43026881-5121-4A9C-9BE8-1401CBEFFE9D}|SkylerO-AmplifundProj.csproj|solutionrelative:repostitories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43026881-5121-4A9C-9BE8-1401CBEFFE9D}|SkylerO-AmplifundProj.csproj|c:\\users\\skyler\\source\\repos\\skylero-amplifundproj\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{43026881-5121-4A9C-9BE8-1401CBEFFE9D}|SkylerO-AmplifundProj.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{43026881-5121-4A9C-9BE8-1401CBEFFE9D}|SkylerO-AmplifundProj.csproj|c:\\users\\skyler\\source\\repos\\skylero-amplifundproj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{43026881-5121-4A9C-9BE8-1401CBEFFE9D}|SkylerO-AmplifundProj.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{43026881-5121-4A9C-9BE8-1401CBEFFE9D}|SkylerO-AmplifundProj.csproj|c:\\users\\skyler\\source\\repos\\skylero-amplifundproj\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{43026881-5121-4A9C-9BE8-1401CBEFFE9D}|SkylerO-AmplifundProj.csproj|solutionrelative:models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43026881-5121-4A9C-9BE8-1401CBEFFE9D}|SkylerO-AmplifundProj.csproj|c:\\users\\skyler\\source\\repos\\skylero-amplifundproj\\models\\bookcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43026881-5121-4A9C-9BE8-1401CBEFFE9D}|SkylerO-AmplifundProj.csproj|solutionrelative:models\\bookcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,24 +42,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "BookControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\skyler\\source\\repos\\SkylerO-AmplifundProj\\UnitTests\\BookControllerTests.cs",
+              "RelativeDocumentMoniker": "UnitTests\\BookControllerTests.cs",
+              "ToolTip": "C:\\Users\\skyler\\source\\repos\\SkylerO-AmplifundProj\\UnitTests\\BookControllerTests.cs",
+              "RelativeToolTip": "UnitTests\\BookControllerTests.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAA7wH8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T16:45:29.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "README.md",
               "DocumentMoniker": "C:\\Users\\skyler\\source\\repos\\SkylerO-AmplifundProj\\README.md",
               "RelativeDocumentMoniker": "README.md",
               "ToolTip": "C:\\Users\\skyler\\source\\repos\\SkylerO-AmplifundProj\\README.md",
               "RelativeToolTip": "README.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAADOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2024-10-08T16:27:44.311Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "BookContext.cs",
               "DocumentMoniker": "C:\\Users\\skyler\\source\\repos\\SkylerO-AmplifundProj\\Models\\BookContext.cs",
               "RelativeDocumentMoniker": "Models\\BookContext.cs",
@@ -68,7 +89,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\skyler\\source\\repos\\SkylerO-AmplifundProj\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -81,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Users\\skyler\\source\\repos\\SkylerO-AmplifundProj\\Models\\Book.cs",
               "RelativeDocumentMoniker": "Models\\Book.cs",
@@ -94,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\skyler\\source\\repos\\SkylerO-AmplifundProj\\Repostitories\\IRepository.cs",
               "RelativeDocumentMoniker": "Repostitories\\IRepository.cs",
@@ -107,26 +128,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "BookRepository.cs",
               "DocumentMoniker": "C:\\Users\\skyler\\source\\repos\\SkylerO-AmplifundProj\\Repostitories\\BookRepository.cs",
               "RelativeDocumentMoniker": "Repostitories\\BookRepository.cs",
               "ToolTip": "C:\\Users\\skyler\\source\\repos\\SkylerO-AmplifundProj\\Repostitories\\BookRepository.cs",
               "RelativeToolTip": "Repostitories\\BookRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwB8AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-08T13:50:12.04Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "BookController.cs",
               "DocumentMoniker": "C:\\Users\\skyler\\source\\repos\\SkylerO-AmplifundProj\\Controllers\\BookController.cs",
               "RelativeDocumentMoniker": "Controllers\\BookController.cs",
               "ToolTip": "C:\\Users\\skyler\\source\\repos\\SkylerO-AmplifundProj\\Controllers\\BookController.cs",
               "RelativeToolTip": "Controllers\\BookController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-08T13:13:18.212Z",
               "EditorCaption": ""
