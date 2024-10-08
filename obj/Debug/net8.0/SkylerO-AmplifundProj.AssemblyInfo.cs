@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SkylerO-AmplifundProj")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+72ec9b88f291d88522de7eafe405c6dfff51e4a6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+542c5cb2a190cce02dc3a19d0c0213fa41245630")]
 [assembly: System.Reflection.AssemblyProductAttribute("SkylerO-AmplifundProj")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SkylerO-AmplifundProj")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

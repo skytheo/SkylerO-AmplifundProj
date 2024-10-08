@@ -8,7 +8,6 @@ namespace SkylerO_AmplifundProj.Controllers
     [Route("[controller]")]
     public class BookController : ControllerBase
     {
-
         private readonly ILogger<BookController> _logger;
         private readonly IBookRepository _bookRepository;
 
@@ -19,16 +18,19 @@ namespace SkylerO_AmplifundProj.Controllers
         }
 
         [HttpGet]
-        public List<Book> GetAll()
+        public IEnumerable<Book> GetAll()
         {
-            return _bookRepository.GetAll();
+            return _bookRepository.GetAll().Result;
         }
 
         [HttpDelete]
         public void Delete(int id)
         {
-            Book book = GetOne(id);
-            _bookRepository.Delete(book);
+            Book? book = GetOne(id);
+            if (book != null)
+            {
+                _bookRepository.Delete(book);
+            }
         }
 
         [HttpPost]
@@ -45,7 +47,7 @@ namespace SkylerO_AmplifundProj.Controllers
 
         [HttpGet("/{id}")]
         public Book GetOne(int id) {
-            return _bookRepository.GetOne(id);
+            return _bookRepository.GetOne(id).Result;
         }
     }
 }

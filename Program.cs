@@ -1,10 +1,14 @@
 using SkylerO_AmplifundProj.Repostitories;
+using SkylerO_AmplifundProj.Models;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
+builder.Services.AddDbContext<BookContext>(opt => 
+    opt.UseInMemoryDatabase("BookList"));
 builder.Services.AddScoped<IBookRepository, BookRepository>();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

@@ -1,16 +1,17 @@
-﻿using System.Linq.Expressions;
+﻿using Microsoft.AspNetCore.Mvc;
+using System.Linq.Expressions;
 
 namespace SkylerO_AmplifundProj.Repostitories
 {
 
     public interface IRepository<T> : IDisposable where T : class
     {
-        List<T> GetAll();
-        T GetOne(int id);
+        Task<IEnumerable<T>> GetAll();
+        Task<T> GetOne(int id);
 
-        void Add(T entity);
-        void Update(int id, T entity);
-        void Delete(T entity);
+        Task<T> Add(T entity);
+        Task Update(int id, T entity);
+        Task Delete(T entity);
 
     }
 }

@@ -1,8 +1,9 @@
-﻿using SkylerO_AmplifundProj.Models;
+﻿using Microsoft.AspNetCore.Mvc;
+using SkylerO_AmplifundProj.Models;
 
 namespace SkylerO_AmplifundProj.Repostitories
 {
-    public interface IBookRepository: IRepository<Book>
+    public interface IBookRepository : IRepository<Book>
     {
     }
 }

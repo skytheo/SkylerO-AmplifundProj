@@ -1,22 +1,24 @@
-﻿using SkylerO_AmplifundProj.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using SkylerO_AmplifundProj.Models;
 
 namespace SkylerO_AmplifundProj.Repostitories
 {
-    public class BookRepository:IBookRepository
+    public class BookRepository : IBookRepository
     {
-        private List<Book> books; //temporary db replacement
         Random idGenerator = new Random();
+        private readonly BookContext _context;
 
-        public BookRepository() {
-            books = new List<Book>();
+        public BookRepository(BookContext context)
+        {
+            _context = context;
         }
 
-        public List<Book> GetAll() {
-            return books;
+        public async Task<IEnumerable<Book>> GetAll() {
+            return _context.Books.ToList();
         }
 
-        public Book GetOne(int id) {
-            Book? book = books.FirstOrDefault(x => x.Id == id);
+        public async Task<Book> GetOne(int id) {
+            Book? book = await _context.Books.FirstOrDefaultAsync(x => x.Id == id);
             if(book != null)
             {
                 return book;
@@ -26,23 +28,27 @@ namespace SkylerO_AmplifundProj.Repostitories
             }
         }
 
-        public void Add(Book book) {
-            books.Add(book);
+        public async Task<Book> Add(Book book) {
+            _context.Books.Add(book);
+            await _context.SaveChangesAsync();
+            return book;
         }
 
-        public void Update(int id, Book book) {
-            Book? oldBook = books.FirstOrDefault(x => x.Id == id);
+        public async Task Update(int id, Book book) {
+            Book? oldBook = await _context.Books.FirstOrDefaultAsync(x => x.Id == id);
             if(oldBook != null)
             {
                 oldBook = book;
+                await _context.SaveChangesAsync();
             } else
             {
                 throw new Exception($"Book with id {book.Id} does not exist");
             }
         }
 
-        public void Delete(Book book) { 
-            books.Remove(book);
+        public async Task Delete(Book book) {
+            _context.Books.Remove(book);
+            await _context.SaveChangesAsync();
         }
 
         public void Dispose()
